@@ -279,8 +279,6 @@ typedef NS_OPTIONS(NSUInteger, CUAnimationType) {
     
     [self.dotlayer addAnimation:keyAnimation1 forKey:nil];
     
-    
-    
     CALayer *gradientlayer = [[CALayer alloc] init];
     CAGradientLayer *gradientlayer1 = [[CAGradientLayer alloc] init];
     [gradientlayer1 setColors:[NSArray arrayWithObjects:(id)[[UIColor redColor] CGColor],(id)[[UIColor orangeColor] CGColor], nil]];
