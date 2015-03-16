@@ -212,6 +212,8 @@ typedef NS_OPTIONS(NSUInteger, CUAnimationType) {
 
 -(void)initProgressView
 {
+    
+    
     _shapelayer = [[CAShapeLayer alloc] init];
     _path = [[UIBezierPath alloc] init];
     [_path addArcWithCenter:CGPointMake(50, 50) radius:(CGFloat)40 startAngle:0 endAngle:M_PI*2 clockwise:YES];
